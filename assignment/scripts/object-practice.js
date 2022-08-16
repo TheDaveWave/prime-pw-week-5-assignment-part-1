@@ -24,8 +24,8 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-
-
+const fullName = me.firstName + ' ' + me.lastName;
+console.log(fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
